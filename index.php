@@ -81,7 +81,43 @@
       </div>
         
     </div>
+    <!-- main container! -->
+
+    <!-- About area -->
     
+
+    <div class="row" style="width: 100%;">
+
+      <div class="col-sm-4 d-flex justify-content-center align-items-center">
+          <div class="cont3 p-5">
+            <div class="title text-center pt-2 h1" style="font-family:'Tangerine', serif; font-weight:bold;">About The Project</div>
+            <div class="sub-title text-center pb-3 text-secondary" >This is a PHP project</div>
+            <p class="text-center">This project is aimed at exploiting and manipulating PHP code to perform fundamental functions. With these, you can be able to create any system required by a respective client</p>
+          </div>
+      </div>
+
+      
+      <div class="col-sm-4 d-flex justify-content-center align-items-center">
+          <div class="cont3 p-5">
+            <div class="title text-center pt-2 h1" style="font-family:'Tangerine', serif; font-weight:bold;">About Myself</div>
+            <div class="sub-title text-center pb-3 text-secondary" >Full-stack software developer</div>
+            <p class="text-center">I'm Jenipher a full-stack developer. I also develop apps and am an expert in AI development using python(tensor flow) and matlab. I'm also a designer and teacher. <br><a href="https://jenipher-kuki.000webhostapp.com/" target="_blank" rel="noopener noreferrer">See more</a></p>
+          </div>
+      </div>
+
+
+     
+      <div class="col-sm-4 d-flex justify-content-center align-items-center">
+          <div class="cont3 p-5">
+            <div class="title text-center pt-2 h1" style="font-family:'Tangerine', serif; font-weight:bold;">About My Company</div>
+            <div class="sub-title text-center pb-3 text-secondary" >BYTESAOPE TECHNOLOGIES AFRICA</div>
+            <p class="text-center">I (Jenipher A. Onyango) am the founder and CEO of BYTESCAPE TECHNOLOGIES AFRICA.A company aimed towards solving Africa's problems using technology. <br><a href="#" target="_blank" rel="noopener noreferrer">See more</a></p>
+          </div>
+      </div>
+
+
+    </div>
+    <!-- About area! -->
 
     <!-- js links -->
     <script src="js/script.js"></script>

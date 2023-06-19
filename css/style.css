@@ -4,6 +4,7 @@ body {
   margin: 0;
   scroll-behavior: smooth;
   font-family: serif;
+  overflow: hidden;
 }
 .font-24 {
   font-size: 24px;
@@ -83,4 +84,5 @@ body {
   height: 70vh;
 }
 /* about my area */
+
 
