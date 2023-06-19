@@ -8,10 +8,10 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.php">HOME</a>
+                    <a class="nav-link active" aria-current="page" href="../index.php">HOME</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link " aria-current="page" href="crud/crud-landing.php">CRUD OPERATIONS</a>
+                    <a class="nav-link " aria-current="page" href="../crud/crud-landing.php">CRUD OPERATIONS</a>
                   </li>
                   
                   <li class="nav-item dropdown">
@@ -19,9 +19,9 @@
                   API INTEGRATION
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="chatbot/call-landing.php">CALL API</a></li>
-                    <li><a class="dropdown-item" href="api-intergration/sms-landing.php">SMS API</a></li>
-                    <li><a class="dropdown-item" href="AI-ask/api-landing.php">API OTHER</a></li>
+                    <li><a class="dropdown-item" href="../chatbot/call-landing.php">CALL API</a></li>
+                    <li><a class="dropdown-item" href="../AI-ask/sms-landing.php">SMS API</a></li>
+                    <li><a class="dropdown-item" href="../AI-ask/api-landing.php">API OTHER</a></li>
                   
                   </ul>
                 </li>
@@ -30,9 +30,9 @@
                   AI $ DATA MINING
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="chatbot/chatbot-landing.php">CHATBOT</a></li>
-                    <li><a class="dropdown-item" href="AI-ask/ai-ask-landing.php">AI ASK</a></li>
-                    <li><a class="dropdown-item" href="AI-ask/datamin-landing.php">DATA MINING</a></li>
+                    <li><a class="dropdown-item" href="../chatbot/chatbot-landing.php">CHATBOT</a></li>
+                    <li><a class="dropdown-item" href="../AI-ask/ai-ask-landing.php">AI ASK</a></li>
+                    <li><a class="dropdown-item" href="../AI-ask/datamin-landing.php">DATA MINING</a></li>
                   
                   </ul>
                 </li>

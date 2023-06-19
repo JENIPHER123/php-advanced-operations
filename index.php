@@ -3,12 +3,12 @@
     <!-- main container -->
     <div class="cont1 overflow-hidden"> 
       <div class="cont1-inner">
-       <?php include_once "partials/navbar.php"?>
+      <?php include_once "partials/navbar.php"?> 
          <div class="cont2 d-flex justify-content-center align-items-center" style="height: 60vh;">
           <div class="cont2-inner">
           <h1 class="text-center " style="color: rgb(235, 180, 109);font-family:'Tangerine', serif; font-weight:bold;">Welcome to the future of PHP... <br>Coding with Jenny!!</h1>
           <h1 class="text-center text-light">DESCOVER MORE WITH PHP</h1>
-          <P class="text-center text-light" style="font-family: 'Tangerine', serif;">Your not allowed to let yourself give up!! You got this!!</P>
+          <P class="text-center text-light" style="font-family:  serif;">Your not allowed to let yourself give up!! You got this!!</P>
 
           </div>
          
@@ -54,4 +54,4 @@
     </div>
     <!-- About area! -->
 
-<?php include_once "partials/footer.php"?>
+    <?php include_once "partials/footer.php"?>
