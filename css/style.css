@@ -66,3 +66,21 @@ body {
   height: 90vh;
   width: 100%;
 }
+.cont1-inner {
+  background: rgba(0, 0, 0, 0.6);
+  height: 90vh;
+  width: 100%;
+  
+}
+.navbar-brand {
+  list-style-type: none;
+  text-decoration: none;
+  color: blanchedalmond;
+  font-weight: bold;
+  font-size: 250%;
+}
+.cont2{
+  height: 70vh;
+}
+/* about my area */
+
