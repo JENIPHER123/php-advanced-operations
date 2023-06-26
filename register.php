@@ -1,8 +1,10 @@
 
 <?php 
 include_once "partials/header.php";
-include_once "partials/navbar.php"?>
-  
+include_once "partials/navbar.php";
+session_start();
+include_once "php/register.php";
+?>
 
 <!-- Section: Design Block -->
 <section class="">
@@ -10,6 +12,10 @@ include_once "partials/navbar.php"?>
   <div class="px-4 py-5 px-md-5 text-center text-lg-start" style="background-color: hsl(0, 0%, 96%)">
     <div class="container">
       <div class="row gx-lg-5 align-items-center">
+     
+       </script>
+       <?php 
+       ?>
         <div class="col-lg-6 mb-5 mb-lg-0">
           <h1 class="my-5 display-3 fw-bold ls-tight">
             Lets code!! <br />
@@ -23,9 +29,12 @@ include_once "partials/navbar.php"?>
         <div class="col-lg-6 mb-5 mb-lg-0">
           <div class="card">
             <div class="card-body py-5 px-md-5">
-              <form action="php/register.php" method="post">
+              <form action="#" method="post">
               <div class="row">
                   <div class="col-md-12 mb-5">
+                    <?php if($_SESSION['success']!=''):?>
+                      <p style="background-color: rgba(0, 0, 0, 0.5);" class="text-light rounded p-4 fw-bold">Registration successful !!</p>
+                    <?php $_SESSION['success']=''; endif;?>
                     <div class="h1 fw-bold text-center">REGISTER</div>
                   </div>
                  
@@ -67,7 +76,7 @@ include_once "partials/navbar.php"?>
                 </div>
 
                 <!-- Submit button -->
-                <button type="submit" class="btn btn-primary btn-block mb-4 form-control">
+                <button type="submit"name="submit" class="btn btn-primary btn-block mb-4 form-control">
                   Sign up
                 </button>
 
