@@ -14,6 +14,7 @@ $query = mysqli_query($conn, $login);
 $fetch = mysqli_fetch_assoc($query);
 
 if($query){
+    header("Location: ../landing.php");
     echo "login successful";
   
 }
