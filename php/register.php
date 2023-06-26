@@ -3,6 +3,11 @@
 /* db connection */
 include_once 'conection.php';
 $_SESSION['success'] = '';
+$first_name = '';
+$last_name = '';
+$email = '';
+$pass = '';
+
 
 /* variable declaration */
 if(isset($_POST['submit'])){
