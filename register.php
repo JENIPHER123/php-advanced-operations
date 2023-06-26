@@ -23,7 +23,7 @@ include_once "partials/navbar.php"?>
         <div class="col-lg-6 mb-5 mb-lg-0">
           <div class="card">
             <div class="card-body py-5 px-md-5">
-              <form>
+              <form action="php/register.php" method="post">
               <div class="row">
                   <div class="col-md-12 mb-5">
                     <div class="h1 fw-bold text-center">REGISTER</div>
@@ -73,7 +73,7 @@ include_once "partials/navbar.php"?>
 
                 <!-- Register buttons -->
                 <div class="text-center">
-                  <p>Already have an account? <a href="register.php">login here!!</a></p>
+                  <p>Already have an account? <a href="index.php">login here!!</a></p>
                   <button type="button" class="btn btn-link btn-floating mx-1">
                     <i class="fab fa-facebook-f"></i>
                   </button>
