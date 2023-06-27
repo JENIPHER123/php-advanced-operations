@@ -15,7 +15,8 @@
               </div>
               <div class="profile_info">
                 <span class="">Welcome,</span>
-                <h2 class="">John Doe</h2>
+                <h2 class=""><?php echo $_SESSION['first_name'] ?></h2>
+                <span class=""><?php echo $_SESSION['email'] ?></span>
               </div>
             </div>
             <!-- /menu profile quick info -->
@@ -114,7 +115,7 @@
               <ul class=" navbar-right">
                 <li class="nav-item dropdown open" style="padding-left: 15px;">
                   <a href="javascript:;" class="user-profile dropdown-toggle" aria-haspopup="true" id="navbarDropdown" data-toggle="dropdown" aria-expanded="false">
-                    <img src="images/img.jpg" alt="">John Doe
+                    <img src="../assets/images/books1.jpg" alt=""><?php  echo $_SESSION['first_name'] .' '. $_SESSION['last_name'];?>
                   </a>
                   <div class="dropdown-menu dropdown-usermenu pull-right" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item"  href="javascript:;"> Profile</a>

@@ -18,10 +18,10 @@ if (isset($_POST['email']) && isset($_POST['password'])) {
 
     if(isset($fetch['email'])){
         session_start();
-        $_SESSION['email']=$$fetch['email'];
-        $_SESSION['password']=$$fetch['password'];
-        $_SESSION['first_name']=$$fetch['first_name'];
-        $_SESSION['last_name']=$$fetch['last_name'];
+        $_SESSION['email']=$fetch['email'];
+        $_SESSION['password']=$fetch['password'];
+        $_SESSION['first_name']=$fetch['first_name'];
+        $_SESSION['last_name']=$fetch['last_name'];
 
         header("Location: ../main-landing/main-landing.php");
     
