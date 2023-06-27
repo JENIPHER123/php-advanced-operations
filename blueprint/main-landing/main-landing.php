@@ -686,5 +686,5 @@ include_once '../partials/page_nav.php';
         </div>
         <!-- /page content -->
 
-      
+
 <?php include_once '../partials/page_footer.php'?>
