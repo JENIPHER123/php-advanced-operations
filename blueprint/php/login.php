@@ -7,19 +7,18 @@ $email = $_POST['email'];
 $pass = $_POST['password'];
 
 /* logging in */
-$login = "SELECT * FROM users WHERE email ='$email' AND password ='$pass'";
+$login = "SELECT * FROM users WHERE email='$email' AND password='$pass'";
 
 $query = mysqli_query($conn, $login);
 
 $fetch = mysqli_fetch_assoc($query);
 
-if($query){
-    header("Location: ../landing.php");
-    echo "login successful";
+if(isset($fetch['email'])){
+     header("Location: ../main-landing/main-landing.php");
   
 }
 else{
-    echo "error";
+    header("Location: ../index.php");
 
 }
 ?>
