@@ -3,7 +3,7 @@
 include_once "partials/header.php";
 include_once "partials/navbar.php";
 session_start();
-include_once "php/register.php";
+include_once "php/register.php";//register function
 ?>
 
 <!-- Section: Design Block -->
@@ -29,6 +29,7 @@ include_once "php/register.php";
         <div class="col-lg-6 mb-5 mb-lg-0">
           <div class="card">
             <div class="card-body py-5 px-md-5">
+              <!-- registration form -->
               <form action="#" method="post">
               <div class="row">
                   <div class="col-md-12 mb-5">
@@ -100,6 +101,7 @@ include_once "php/register.php";
                   </button>
                 </div>
               </form>
+              <!-- registration form ! -->
             </div>
           </div>
         </div>
