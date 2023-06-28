@@ -52,8 +52,8 @@
                   </li>
                   <li><a><i class="fa fa-table"></i> Call APIs<span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                    <li><a href="../bulk-sms/sms-celcom-landing.php">Celcom</a></li>
-                      <li><a href="../bulk-sms/sms-afritalk-landing.php">Africas Talking</a></li>
+                    <li><a href="../call-api/call-celcom-landing.php">Celcom</a></li>
+                      <li><a href="../call-api/call-afritalk-landing.php">Africas Talking</a></li>
                     </ul>
                   </li>
                   <li><a><i class="fa fa-bar-chart-o"></i>Dynamic Chatbot <span class="fa fa-chevron-down"></span></a>
