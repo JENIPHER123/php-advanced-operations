@@ -9,9 +9,9 @@
             <div class="clearfix"></div>
 
             <!-- menu profile quick info -->
-            <div class="profile clearfix d-flex justify-content-center align-content-center py-3">
+            <div class="profile clearfix d-flex justify-content-center align-content-center ">
               <div class="d-flex justify-content-center align-content-center">
-                <img src="../assets/images/city1.jpg" alt="..." class=""style="width:70px;border-radius:60%;height:70px;">
+                <img src="../assets/images/city1.jpg" alt="..." class="mt-4"style="width:70px;border-radius:60%;height:70px;">
               </div>
               <div class="profile_info">
                 <span class="">Welcome,</span>
@@ -72,8 +72,8 @@
                   </li>
                   <li><a><i class="fa fa-clone"></i>data-mining <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="fixed_sidebar.html">Fixed Sidebar</a></li>
-                      <li><a href="fixed_footer.html">Fixed Footer</a></li>
+                      <li><a href="fixed_sidebar.html">Display</a></li>
+                      <li><a href="fixed_footer.html">Compare</a></li>
                     </ul>
                   </li>
                 </ul>
