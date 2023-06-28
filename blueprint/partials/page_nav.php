@@ -69,6 +69,13 @@
                       <li><a href="../crud/firebase-crud.php">firebase crud</a></li>
                     </ul>
                   </li>
+                  <li><a><i class="fa fa-bar-chart-o"></i>Safaricom Mpesa<span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="../mpesa/b-b.php">B-B</a></li>
+                      <li><a href="../mpesa/b-c.php">B-C</a></li>
+                      <li><a href="../mpesa/c-b.php">C-B</a></li>
+                    </ul>
+                  </li>
                   <li><a><i class="fa fa-clone"></i>data-mining <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                       <li><a href="../data-mining/target.php">Target</a></li>
