@@ -57,4 +57,4 @@ include_once '../partials/page_nav.php'?>
           </div>
         </div>
         <!-- /page content -->
-<?php include_once 'custom-footer.php'?>
+<?php include_once 'custom-footer-upload.php'?>
