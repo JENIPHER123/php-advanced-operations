@@ -3,7 +3,7 @@
         <div class="col-md-3 left_col">
           <div class="left_col scroll-view">
             <div class="navbar nav_title" style="border: 0;">
-              <a href="index.html" class="site_title"><!-- <i class="fa fa-paw"></i> --> <span class="font-weight-bold">Coding With Jenny!</span></a>
+              <a href="../main-landing/main-landing.php" class="site_title"><!-- <i class="fa fa-paw"></i> --> <span class="font-weight-bold">Coding With Jenny!</span></a>
             </div>
 
             <div class="clearfix"></div>
@@ -30,17 +30,18 @@
                 <ul class="nav side-menu">
                   <li><a><i class="fa fa-home"></i> APIs Operations<span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="index.html">Tokens</a></li>
-                      <li><a href="index2.html">Endpoints</a></li>
-                      <li><a href="index3.html">Pulling Json data</a></li>
+                    <li><a href="../api-intergration/api-landing.php">Integration</a></li>
+                      <li><a href="../tokens/tokens.php">Tokens</a></li>
+                      <li><a href="../api-endpoint/api-endpoint.php">Endpoints</a></li>
+                      <li><a href="../pull-json/pull-json.php">Pulling Json data</a></li>
                     </ul>
                   </li>
                   <li><a><i class="fa fa-edit"></i> Authentication <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="form.html">Email Auth(QSL)</a></li>
-                      <li><a href="form_advanced.html">Sms Auth (SQL)</a></li>
-                      <li><a href="form_validation.html">Email Auth (Firebase)</a></li>
-                      <li><a href="form_wizards.html">Sms Auth (Firebase)</a></li>
+                      <li><a href="../authentication/email-auth-sql.php">Email Auth(QSL)</a></li>
+                      <li><a href="../authentication/sms-auth-sql.php">Sms Auth (SQL)</a></li>
+                      <li><a href="../authentication/email-auth-firebase.php">Email Auth (Firebase)</a></li>
+                      <li><a href="../authentication/sms-auth.firebase.php">Sms Auth (Firebase)</a></li>
                     </ul>
                   </li>
                   <li><a><i class="fa fa-desktop"></i> Bulk-sms Operations<span class="fa fa-chevron-down"></span></a>
@@ -51,8 +52,8 @@
                   </li>
                   <li><a><i class="fa fa-table"></i> Call APIs<span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                    <li><a href="general_elements.html">Celcom</a></li>
-                      <li><a href="media_gallery.html">Africas Talking</a></li>
+                    <li><a href="../bulk-sms/sms-celcom-landing.php">Celcom</a></li>
+                      <li><a href="../bulk-sms/sms-afritalk-landing.php">Africas Talking</a></li>
                     </ul>
                   </li>
                   <li><a><i class="fa fa-bar-chart-o"></i>Dynamic Chatbot <span class="fa fa-chevron-down"></span></a>
@@ -64,16 +65,22 @@
                   </li>
                   <li><a><i class="fa fa-clone"></i>Crud Operations<span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="fixed_sidebar.html">create</a></li>
-                      <li><a href="fixed_footer.html">delete</a></li>
-                      <li><a href="fixed_sidebar.html">update</a></li>
-                      <li><a href="fixed_footer.html">display</a></li>
+                      <li><a href="../crud/sql-crud.php">sql crud</a></li>
+                      <li><a href="../crud/firebase-crud.php">firebase crud</a></li>
                     </ul>
                   </li>
                   <li><a><i class="fa fa-clone"></i>data-mining <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="fixed_sidebar.html">Display</a></li>
-                      <li><a href="fixed_footer.html">Compare</a></li>
+                      <li><a href="../data-mining/target.php">Target</a></li>
+                      <li><a href="../data-mining/display.php">Display</a></li>                     
+                    </ul>
+                  </li>
+                  <li><a><i class="fa fa-clone"></i>Form Uploads<span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="../uploads/file_uploads.php">Files Upload</a></li>
+                      <li><a href="../uploads/files_display.php">Display files</a></li>
+                      <li><a href="../uploads/img_upload.php">Image Upload</a></li>
+                      <li><a href="../uploads/img_display.php">Display image</a></li>
                     </ul>
                   </li>
                 </ul>
