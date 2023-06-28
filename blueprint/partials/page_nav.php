@@ -58,9 +58,9 @@
                   </li>
                   <li><a><i class="fa fa-bar-chart-o"></i>Dynamic Chatbot <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="chartjs.html">Landing</a></li>
-                      <li><a href="chartjs2.html">Admin</a></li>
-                      <li><a href="morisjs.html">Chat Now</a></li>
+                      <li><a href="../chatbot/chatbot-landing.php">Landing</a></li>
+                      <li><a href="../chatbot/chatbot-admin.php">Admin</a></li>
+                      <li><a href="../chatbot/chat-box.php">Chat Now</a></li>
                     </ul>
                   </li>
                   <li><a><i class="fa fa-clone"></i>Crud Operations<span class="fa fa-chevron-down"></span></a>
