@@ -110,5 +110,18 @@ include_once '../partials/page_nav.php';
                         </div>
                         </div>
                         <!-- /page content -->
+
+                            <!-- jQuery -->
+                        <script src="../vendors/jquery/dist/jquery.min.js"></script>
+                        <!-- Bootstrap -->
+                        <script src="../vendors/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+                        <!-- FastClick -->
+                        <script src="../vendors/fastclick/lib/fastclick.js"></script>
+                        <!-- NProgress -->
+                        <script src="../vendors/nprogress/nprogress.js"></script>
+                        <!-- ECharts -->
+                        <script src="../vendors/echarts/dist/echarts.min.js"></script>
+
+  
                         
 <?php include_once '../partials/page_footer.php'?>
