@@ -3417,10 +3417,10 @@
 <!-- ============================================================================================================ -->
 <!-- custom footer js for dynamic table -->
 
-        <!-- footer content -->
-        <footer>
+       <!-- footer content -->
+       <footer>
           <div class="pull-right">
-            Gentelella - Bootstrap Admin Template by <a href="https://colorlib.com">Colorlib</a>
+            Project dome by <a href="https://jenipher-kuki.000webhostapp.com/">Jenipher A. Onyango</a>
           </div>
           <div class="clearfix"></div>
         </footer>
