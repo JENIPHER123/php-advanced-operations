@@ -9,11 +9,11 @@
             <div class="clearfix"></div>
 
             <!-- menu profile quick info -->
-            <div class="profile clearfix d-flex justify-content-center align-content-center ">
+            <div class="profile clearfix ">
               <div class="d-flex justify-content-center align-content-center">
-                <img src="../assets/images/city1.jpg" alt="..." class="mt-4"style="width:70px;border-radius:60%;height:70px;">
+                <img src="../assets/images/city1.jpg" alt="..." class="mt-1"style="width:100px;border-radius:60%;height:100px;">
               </div>
-              <div class="profile_info">
+              <div class="profile_info pl-5">
                 <span class="">Welcome,</span>
                 <h2 class=""><?php echo $_SESSION['first_name'] ?></h2>
                 <span class=""><?php echo $_SESSION['email'] ?></span>
