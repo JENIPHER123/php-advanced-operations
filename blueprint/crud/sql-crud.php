@@ -68,16 +68,21 @@
 
                       <tbody>
 
-                      
+                       <?php 
+                       $query = "SELECT * FROM crud_projects";
+                       $query1 = mysqli_query($conn, $query);
+                       $fetch = mysqli_fetch_assoc($query1);
+                       while ($fetch['id']=$num):
+                       ?>
                         <tr>
-                          <td>Tiger Nixon</td>
-                          <td>System Architect</td>
-                          <td>Edinburgh</td>
-                          <td>61</td>
-                          <td>2011/04/25</td>
+                          <td><?php echo $fetch['project_name']?></td>
+                          <td><?php echo $fetch['project_id']?></td>
+                          <td><?php echo $fetch['duration']?></td>
+                          <td><?php echo $fetch['amount']?></td>
+                          <td><?php echo $fetch['start_date']?></td>
                           <td><div class="btn btn-danger font-weight-bold">DELETE</div><div class="btn btn-info text-light font-weight-bold">UPDATE</div></td>
                         </tr>
-                
+                      <?php $num = $num + 1; endwhile;?>
                       </tbody>
                     </table>
                   </div>
