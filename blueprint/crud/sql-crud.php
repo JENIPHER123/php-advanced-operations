@@ -83,16 +83,65 @@
                           <td><?php echo $item['amount']?></td>
                           <td><?php echo $item['start_date']?></td>
                           <td class="d-flex justify-content-center align-items-center">
-                          <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                     Delete
+                          <button type="submit" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal<?php echo $item['project_id']?>">
+                             Delete
                          </button>
-                         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                          <!-- delete modal form -->
+                         
+                          <div class="modal fade" id="exampleModal<?php echo $item['project_id']?>" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                  <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Item NO: <?php echo $item['project_id']?></h5>
+                                                        <button type="button" class="close close-btn" data-bs-dismiss="modal" aria-label="Close">&times;</button>
+                                                      
+                                        </div>
+                                        <div class="modal-body">
+                                              <?php echo $item['project_id']?>
+                                      </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                  </div>
+                                </div>
+                              </div>
+                              </div>
+                                                
+                      <!-- end delete modal form -->
+                        
+                         <button type="submit" class="btn btn-primary"data-bs-toggle="modal" data-bs-target="#exampleModal1<?php echo $item['project_name']?>">
                                     Update
                          </button>
-
+                                          
+                          <!-- update modal form -->
+                                            
+                          <div class="modal fade" id="exampleModal1<?php echo $item['project_name']?>" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                  <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Item NO: <?php echo $item['project_id']?></h5>
+                                                        <button type="button" class="close close-btn" data-bs-dismiss="modal" aria-label="Close">&times;</button>
+                                                      
+                                        </div>
+                                        <div class="modal-body">
+                                        <?php echo $item['project_id']?>
+                                      </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                  </div>
+                                </div>
+                              </div>
+                              </div>
+                                                
+                      <!-- end update modal form -->
                           </td>
+                         
+
+                 
 
                         </tr>
+                         
                       <?php   }?>
                       </tbody>
                     </table>
@@ -110,51 +159,7 @@
         </div>
         <!-- /page content -->
 
-        <!-- delete modal form -->
-            
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                         <div class="modal-header">
-                              <h5 class="modal-title" id="exampleModalLabel">The delete modal</h5>
-                                          <button type="button" class="close close-btn" data-bs-dismiss="modal" aria-label="Close">&times;</button>
-                                        
-                         </div>
-                         <div class="modal-body">
-                                          ...
-                        </div>
-                      <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                      <button type="button" class="btn btn-primary">Save changes</button>
-                    </div>
-                  </div>
-                </div>
-                </div>
-                                 
-        <!-- end delete modal form -->
 
-        <!-- update modal form -->
-            
-               <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                         <div class="modal-header">
-                              <h5 class="modal-title" id="exampleModalLabel">The Update Modal</h5>
-                                          <button type="button" class="close close-btn" data-bs-dismiss="modal" aria-label="Close">&times;</button>
-                                        
-                         </div>
-                         <div class="modal-body">
-                                          ...
-                        </div>
-                      <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                      <button type="button" class="btn btn-primary">Save changes</button>
-                    </div>
-                  </div>
-                </div>
-                </div>
-                                 
-        <!-- end update modal form -->
 
         
         <!-- modal links -->
