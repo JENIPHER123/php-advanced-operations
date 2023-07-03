@@ -96,12 +96,14 @@
                                                         <button type="button" class="close close-btn" data-bs-dismiss="modal" aria-label="Close">&times;</button>
                                                       
                                         </div>
-                                        <div class="modal-body">
-                                              <?php echo $item['project_id']?>
+                                        <div class="modal-body h6 text-center font-weight-bold">
+                                             Are you sure you want to delete this item?
                                       </div>
                                     <div class="modal-footer">
+                                   
+                                    <button type="button" class="btn btn-danger">Confirm Delete</button>
                                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary">Save changes</button>
+
                                   </div>
                                 </div>
                               </div>
@@ -124,11 +126,32 @@
                                                       
                                         </div>
                                         <div class="modal-body">
-                                        <?php echo $item['project_id']?>
+                                        <form>
+                                          <div class="mb-3">
+                                            <label for="exampleInputEmail1" class="form-label">Project Name</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="<?php echo $item['project_name']?>">
+                                          </div>
+                                          <div class="mb-3">
+                                            <label for="exampleInputEmail1" class="form-label">Project ID</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"placeholder="<?php echo $item['project_id']?>">
+                                          </div>
+                                          <div class="mb-3">
+                                            <label for="exampleInputEmail1" class="form-label">Duration</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"placeholder="<?php echo $item['duration']?>">
+                                          </div>
+                                          <div class="mb-3">
+                                            <label for="exampleInputPassword1" class="form-label">Amount</label></label>
+                                            <input type="text" class="form-control" id="exampleInputPassword1"placeholder="<?php echo $item['amount']?>">
+                                          </div>
+                                          <div class="mb-3">
+                                            <label for="exampleInputPassword1" class="form-label">Date</label></label>
+                                            <input type="date" class="form-control"placeholder="<?php echo $item['start_date']?>" id="exampleInputPassword1">
+                                          </div>   
+                                        <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                        </form>
                                       </div>
-                                    <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary">Save changes</button>
                                   </div>
                                 </div>
                               </div>
