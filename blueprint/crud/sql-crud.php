@@ -70,9 +70,9 @@
 
                        <?php 
                       
-                       $query = "SELECT * FROM crud_projects";
-                       $query1 = mysqli_query($conn, $query);
-                   
+                      /* looping database items on html table using mysqli (you can use either mysqli_fetch_array or mysqli_fetch_assoc) */
+                      $query = "SELECT * FROM crud_projects";
+                      $query1 = mysqli_query($conn, $query); 
                       while ($item = mysqli_fetch_array($query1)) {
                         
                        ?>
