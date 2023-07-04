@@ -29,7 +29,55 @@
                 <div class="x_panel">
                   <div class="x_title">
                     <h2>
-                      <div class="btn btn-success font-weight-bold">CREATE NEW PROJECT</div>
+                 
+                        <button type="submit" class="btn btn-success font-weight-bold px-4" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                              create new project
+                         </button>
+                          <!-- create modal form -->
+                                            
+                          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                  <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                        <h5 class="modal-title py-3 text-dark font-weight-bold text-center" id="exampleModalLabel">Create New Project</h5>
+                                                        <button type="button" class="close close-btn" data-bs-dismiss="modal" aria-label="Close">&times;</button>
+                                                      
+                                        </div>
+                                        <div class="modal-body">
+                                        <form action="php/create.php" method="post">
+                                        
+                                          <div class="mb-3">
+                                            <label for="exampleInputEmail1" class="form-label">Project Name</label>
+                                            <input type="text"name="project_name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                          </div>
+                                          <div class="mb-3">
+                                            <label for="exampleInputEmail1" class="form-label">Project ID</label>
+                                            <input type="text"name="project_id" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                          </div>
+                                          <div class="mb-3">
+                                            <label for="exampleInputEmail1" class="form-label">Project Duration</label>
+                                            <input type="text"name="duration" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                          </div>
+                                          <div class="mb-3">
+                                            <label for="exampleInputPassword1" class="form-label">Project Amount</label></label>
+                                            <input type="text" name="amount"class="form-control" id="exampleInputPassword1">
+                                          </div>
+                                          <div class="mb-3">
+                                            <label for="exampleInputPassword1" class="form-label">Start Date</label></label>
+                                            <input type="text"name="date" class="form-control" id="exampleInputPassword1">
+                                          </div>   
+                                        <div class="modal-footer">
+                                        
+                                        <button type="submit"name="submit" class="btn btn-success">Submit details</button>
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        </form>
+                                      </div>
+                                  </div>
+                                </div>
+                              </div>
+                              </div>
+                                                
+                      <!-- end create modal form -->
                     </h2>
                     <ul class="nav navbar-right panel_toolbox">
                       <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
