@@ -5,7 +5,7 @@
 
 
         <!-- page content -->
-        <div class="right_col" role="main">
+        <div class="right_col" role="main" style="min-height: 100vh;">
           <div class="">
             <div class="page-title">
               <div class="title_left">
