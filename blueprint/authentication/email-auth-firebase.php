@@ -30,7 +30,7 @@
               <div class="col-md-12 col-sm-12 ">
                 <div class="x_panel">
                   <div class="x_title">
-                    <h2>Email Authentication <small>Flutter</small></h2>
+                    <h2>Email Authentication <small>firebase</small></h2>
                     <ul class="nav navbar-right panel_toolbox">
                       
                     </ul>
@@ -40,7 +40,7 @@
 
 
                     <!-- Smart Wizard -->
-                    <p>Email authentication and setting code using flutter and php.</p>
+                    <p>Email authentication and setting code using firebase and php.</p>
                     <div id="wizard" class="form_wizard wizard_horizontal">
                       <ul class="wizard_steps">
                         <li>
