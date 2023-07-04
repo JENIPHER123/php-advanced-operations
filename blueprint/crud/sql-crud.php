@@ -126,30 +126,33 @@
                                                       
                                         </div>
                                         <div class="modal-body">
-                                        <form>
+                                        <form action="php/update.php" method="post">
+                                        <div class="mb-3">
+                                            <input type="hidden"readonly name="id" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"value="<?php echo $item['id']?>">
+                                          </div>
                                           <div class="mb-3">
                                             <label for="exampleInputEmail1" class="form-label">Project Name</label>
-                                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="<?php echo $item['project_name']?>">
+                                            <input type="text"name="project_name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="<?php echo $item['project_name']?>">
                                           </div>
                                           <div class="mb-3">
                                             <label for="exampleInputEmail1" class="form-label">Project ID</label>
-                                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"placeholder="<?php echo $item['project_id']?>">
+                                            <input type="text"readonly name="project_id" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"value="<?php echo $item['project_id']?>">
                                           </div>
                                           <div class="mb-3">
                                             <label for="exampleInputEmail1" class="form-label">Duration</label>
-                                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"placeholder="<?php echo $item['duration']?>">
+                                            <input type="text"name="duration" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"value="<?php echo $item['duration']?>">
                                           </div>
                                           <div class="mb-3">
                                             <label for="exampleInputPassword1" class="form-label">Amount</label></label>
-                                            <input type="text" class="form-control" id="exampleInputPassword1"placeholder="<?php echo $item['amount']?>">
+                                            <input type="text" name="amount"class="form-control" id="exampleInputPassword1"value="<?php echo $item['amount']?>">
                                           </div>
                                           <div class="mb-3">
                                             <label for="exampleInputPassword1" class="form-label">Date</label></label>
-                                            <input type="date" class="form-control"placeholder="<?php echo $item['start_date']?>" id="exampleInputPassword1">
+                                            <input type="text"name="date" class="form-control"value="<?php echo $item['start_date']?>" id="exampleInputPassword1">
                                           </div>   
                                         <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                        <button type="submit" class="btn btn-primary">Update details</button>
                                         </form>
                                       </div>
                                   </div>
