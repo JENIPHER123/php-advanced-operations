@@ -100,9 +100,14 @@
                                              Are you sure you want to delete this item?
                                       </div>
                                     <div class="modal-footer">
+                                    <form action="php/delete.php" method="post">
+                                      <div class="mb-3">
+                                              <input type="hidden"readonly name="id" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"value="<?php echo $item['id']?>">
+                                        </div>
+                                       <button type="submit" class="btn btn-danger">Confirm Delete</button>
+                                    </form>
                                    
-                                    <button type="button" class="btn btn-danger">Confirm Delete</button>
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-secondary mt-3" data-bs-dismiss="modal">Close</button>
 
                                   </div>
                                 </div>
