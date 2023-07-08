@@ -80,7 +80,7 @@
                         </li>
                       </ul>
                       <div id="step-1" class="pt-5 mt-5 pb-5">
-                        <form class="form-horizontal form-label-left">
+                        <form class="form-horizontal form-label-left" action="#"method="post">
 
                           <div class="form-group row">
                             <label class="col-form-label col-md-3 col-sm-3 label-align" for="first-name">First Name <span class="required">*</span>
@@ -122,7 +122,12 @@
                             </div>
                           </div>
                           
-
+                           <div class="form-group row pt-5">
+                            <label for="middle-name" class="col-form-label col-md-3 col-sm-3 label-align"></label>
+                            <div class="col-md-6 col-sm-6 ">
+                              <input id="middle-name" class="form-control col font-weight-bold btn btn-success" type="submit"value="submit" name="middle-name">
+                            </div>
+                          </div>
                         </form>
 
                       </div>
@@ -145,7 +150,7 @@
                             </div>
                           </div>
                         
-                       
+                         
                        
 
                           </form>
